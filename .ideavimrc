@@ -1,0 +1,22 @@
+" Vim Copy For Command+V
+set clipboard+=unnamed
+set history=100000
+if has("clipboard")
+    vnoremap <C-C> "+y
+endif
+
+" Code
+nnoremap <Space>ff :action ShowIntentionActions<CR>
+nnoremap <Space>re :action RenameElement<CR>
+
+" View > Tool Windows
+nnoremap <Space>tt :action ActivateTerminalToolWindow<CR>
+nnoremap <Space>db :action ActivateDatabaseToolWindow<CR>
+nnoremap <Space>mm :action ActivateProjectToolWindow<CR>
+
+" Run
+nnoremap <Space>rr :action RunClass<CR>
+
+" Window > Editor Tabs
+nnoremap <Space>vnew :action SplitVertically<CR>
+nnoremap <Space>new :action SplitHorizontally<CR>
