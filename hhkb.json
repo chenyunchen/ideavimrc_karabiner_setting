@@ -60,6 +60,14 @@
 			},
 			"to": [{
 				"key_code": "left_arrow"
+			}],
+      "conditions": [{
+				"type": "device_if",
+				"identifiers": [{
+					"vendor_id": 1278,
+					"product_id": 33,
+					"description": "hhkb keyboard"
+				}]
 			}]
 		}, {
 			"type": "basic",
@@ -76,6 +84,14 @@
 			},
 			"to": [{
 				"key_code": "down_arrow"
+			}],
+      "conditions": [{
+				"type": "device_if",
+				"identifiers": [{
+					"vendor_id": 1278,
+					"product_id": 33,
+					"description": "hhkb keyboard"
+				}]
 			}]
 		}, {
 			"type": "basic",
@@ -92,6 +108,14 @@
 			},
 			"to": [{
 				"key_code": "up_arrow"
+			}],
+      "conditions": [{
+				"type": "device_if",
+				"identifiers": [{
+					"vendor_id": 1278,
+					"product_id": 33,
+					"description": "hhkb keyboard"
+				}]
 			}]
 		}, {
 			"type": "basic",
@@ -108,6 +132,14 @@
 			},
 			"to": [{
 				"key_code": "right_arrow"
+			}],
+      "conditions": [{
+				"type": "device_if",
+				"identifiers": [{
+					"vendor_id": 1278,
+					"product_id": 33,
+					"description": "hhkb keyboard"
+				}]
 			}]
 		}, {
 			"type": "basic",
@@ -124,6 +156,14 @@
 			},
 			"to": [{
 				"key_code": "escape"
+			}],
+      "conditions": [{
+				"type": "device_if",
+				"identifiers": [{
+					"vendor_id": 1278,
+					"product_id": 33,
+					"description": "hhkb keyboard"
+				}]
 			}]
 		}]
 	}]
