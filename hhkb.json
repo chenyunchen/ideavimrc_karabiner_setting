@@ -1,170 +1,230 @@
 {
-	"title": "Yun's HHKB rule",
-	"rules": [{
-		"description": "Yun's HHKB rule",
-		"manipulators": [{
-			"type": "basic",
-			"from": {
-				"key_code": "right_command",
-				"modifiers": {
-					"mandatory": [],
-					"optional": []
-				}
-			},
-			"to": [{
-				"key_code": "c",
-				"modifiers": [
-					"right_control"
-				]
-			}],
-			"conditions": [{
-				"type": "device_if",
-				"identifiers": [{
-					"vendor_id": 1278,
-					"product_id": 33,
-					"description": "hhkb keyboard"
-				}]
-			}]
-		}, {
-			"type": "basic",
-			"from": {
-				"key_code": "right_option",
-				"modifiers": {
-					"mandatory": [],
-					"optional": []
-				}
-			},
-			"to": [{
-				"key_code": "f2"
-			}],
-			"conditions": [{
-				"type": "device_if",
-				"identifiers": [{
-					"vendor_id": 1278,
-					"product_id": 33,
-					"description": "hhkb keyboard"
-				}]
-			}]
-		}, {
-			"type": "basic",
-			"from": {
-				"key_code": "h",
-				"modifiers": {
-					"mandatory": [
-						"left_control"
-					],
-					"optional": [
-						"any"
-					]
-				}
-			},
-			"to": [{
-				"key_code": "left_arrow"
-			}],
-      "conditions": [{
-				"type": "device_if",
-				"identifiers": [{
-					"vendor_id": 1278,
-					"product_id": 33,
-					"description": "hhkb keyboard"
-				}]
-			}]
-		}, {
-			"type": "basic",
-			"from": {
-				"key_code": "j",
-				"modifiers": {
-					"mandatory": [
-						"left_control"
-					],
-					"optional": [
-						"any"
-					]
-				}
-			},
-			"to": [{
-				"key_code": "down_arrow"
-			}],
-      "conditions": [{
-				"type": "device_if",
-				"identifiers": [{
-					"vendor_id": 1278,
-					"product_id": 33,
-					"description": "hhkb keyboard"
-				}]
-			}]
-		}, {
-			"type": "basic",
-			"from": {
-				"key_code": "k",
-				"modifiers": {
-					"mandatory": [
-						"left_control"
-					],
-					"optional": [
-						"any"
-					]
-				}
-			},
-			"to": [{
-				"key_code": "up_arrow"
-			}],
-      "conditions": [{
-				"type": "device_if",
-				"identifiers": [{
-					"vendor_id": 1278,
-					"product_id": 33,
-					"description": "hhkb keyboard"
-				}]
-			}]
-		}, {
-			"type": "basic",
-			"from": {
-				"key_code": "l",
-				"modifiers": {
-					"mandatory": [
-						"left_control"
-					],
-					"optional": [
-						"any"
-					]
-				}
-			},
-			"to": [{
-				"key_code": "right_arrow"
-			}],
-      "conditions": [{
-				"type": "device_if",
-				"identifiers": [{
-					"vendor_id": 1278,
-					"product_id": 33,
-					"description": "hhkb keyboard"
-				}]
-			}]
-		}, {
-			"type": "basic",
-			"from": {
-				"key_code": "c",
-				"modifiers": {
-					"mandatory": [
-						"left_control"
-					],
-					"optional": [
-						"any"
-					]
-				}
-			},
-			"to": [{
-				"key_code": "escape"
-			}],
-      "conditions": [{
-				"type": "device_if",
-				"identifiers": [{
-					"vendor_id": 1278,
-					"product_id": 33,
-					"description": "hhkb keyboard"
-				}]
-			}]
-		}]
-	}]
+   "title":"Yun's HHKB rule",
+   "rules":[
+      {
+         "description":"Yun's HHKB rule",
+         "manipulators":[
+            {
+               "type":"basic",
+               "from":{
+                  "key_code":"right_command",
+                  "modifiers":{
+                     "mandatory":[
+                        
+                     ],
+                     "optional":[
+                        
+                     ]
+                  }
+               },
+               "to":[
+                  {
+                     "key_code":"c",
+                     "modifiers":[
+                        "right_control"
+                     ]
+                  }
+               ],
+               "conditions":[
+                  {
+                     "type":"device_if",
+                     "identifiers":[
+                        {
+                           "vendor_id":1278,
+                           "product_id":33,
+                           "description":"hhkb keyboard"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "type":"basic",
+               "from":{
+                  "key_code":"right_option",
+                  "modifiers":{
+                     "mandatory":[
+                        
+                     ],
+                     "optional":[
+                        
+                     ]
+                  }
+               },
+               "to":[
+                  {
+                     "key_code":"f2"
+                  }
+               ],
+               "conditions":[
+                  {
+                     "type":"device_if",
+                     "identifiers":[
+                        {
+                           "vendor_id":1278,
+                           "product_id":33,
+                           "description":"hhkb keyboard"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "type":"basic",
+               "from":{
+                  "key_code":"h",
+                  "modifiers":{
+                     "mandatory":[
+                        "left_control"
+                     ],
+                     "optional":[
+                        "any"
+                     ]
+                  }
+               },
+               "to":[
+                  {
+                     "key_code":"left_arrow"
+                  }
+               ],
+               "conditions":[
+                  {
+                     "type":"device_if",
+                     "identifiers":[
+                        {
+                           "vendor_id":1278,
+                           "product_id":33,
+                           "description":"hhkb keyboard"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "type":"basic",
+               "from":{
+                  "key_code":"j",
+                  "modifiers":{
+                     "mandatory":[
+                        "left_control"
+                     ],
+                     "optional":[
+                        "any"
+                     ]
+                  }
+               },
+               "to":[
+                  {
+                     "key_code":"down_arrow"
+                  }
+               ],
+               "conditions":[
+                  {
+                     "type":"device_if",
+                     "identifiers":[
+                        {
+                           "vendor_id":1278,
+                           "product_id":33,
+                           "description":"hhkb keyboard"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "type":"basic",
+               "from":{
+                  "key_code":"k",
+                  "modifiers":{
+                     "mandatory":[
+                        "left_control"
+                     ],
+                     "optional":[
+                        "any"
+                     ]
+                  }
+               },
+               "to":[
+                  {
+                     "key_code":"up_arrow"
+                  }
+               ],
+               "conditions":[
+                  {
+                     "type":"device_if",
+                     "identifiers":[
+                        {
+                           "vendor_id":1278,
+                           "product_id":33,
+                           "description":"hhkb keyboard"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "type":"basic",
+               "from":{
+                  "key_code":"l",
+                  "modifiers":{
+                     "mandatory":[
+                        "left_control"
+                     ],
+                     "optional":[
+                        "any"
+                     ]
+                  }
+               },
+               "to":[
+                  {
+                     "key_code":"right_arrow"
+                  }
+               ],
+               "conditions":[
+                  {
+                     "type":"device_if",
+                     "identifiers":[
+                        {
+                           "vendor_id":1278,
+                           "product_id":33,
+                           "description":"hhkb keyboard"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "type":"basic",
+               "from":{
+                  "key_code":"c",
+                  "modifiers":{
+                     "mandatory":[
+                        "left_control"
+                     ],
+                     "optional":[
+                        "any"
+                     ]
+                  }
+               },
+               "to":[
+                  {
+                     "key_code":"escape"
+                  }
+               ],
+               "conditions":[
+                  {
+                     "type":"device_if",
+                     "identifiers":[
+                        {
+                           "vendor_id":1278,
+                           "product_id":33,
+                           "description":"hhkb keyboard"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
 }
